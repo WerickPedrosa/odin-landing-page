@@ -10,21 +10,44 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.inner-conteiner {
+.inner-container {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.header-section, .hero-section, .footer-section{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.information-section, .cta-section {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 60px 0;
+}
+
+.footer-section {
+    padding: 30px 0;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
-    background-color: blue;
+    padding: 20px 0;
 }
 
-ul {
+.header .logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header ul {
     display: flex;
     list-style-type: none;
     gap: 16px;
@@ -32,7 +55,7 @@ ul {
     padding: 0;
 }
 
-a {
+.header a {
     color: white;
     text-decoration: none;
 }
