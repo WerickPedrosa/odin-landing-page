@@ -56,6 +56,39 @@ body {
 }
 
 .header a {
-    color: white;
+    color: #E5E7EB;
     text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0 80px 0;
+}
+
+.hero .left-side, .hero .right-side {
+    flex: 1;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 10px;
 }
