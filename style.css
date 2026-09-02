@@ -11,7 +11,7 @@ body {
 }
 
 .inner-container {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -37,6 +37,7 @@ body {
 
 .footer-section {
     padding: 30px 0;
+    text-align: center;
 }
 
 .header {
@@ -152,3 +153,24 @@ body {
     align-self: flex-end;
     margin: 0;
 }
+
+.CTA-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color:  #F9FAF8;
+    border-radius: 8px;
+    padding: 20px 80px;
+}
+
+.CTA-banner button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 10px 30px;
+}
+
